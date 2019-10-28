@@ -9,7 +9,7 @@
 3. 语法：有两种方式来访问对象的属性，点操作符或者中括号操作符。
 ~~~JavaScript
 let obj=new Object({'name':'zhang','18age'=18,'33':'haha'})
-//等同于 let obj=({name:'zhang','18age'=18,'33':'haha'})
+//等同于 let obj={name:'zhang','18age'=18,'33':'haha'}
 
 obj.name
 //"zhang";等同于下面
